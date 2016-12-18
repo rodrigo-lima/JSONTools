@@ -25,6 +25,16 @@
 		37F843B418FCE68C003B20CC /* NSDictionary+JSONDeepMutable.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F843B318FCE68C003B20CC /* NSDictionary+JSONDeepMutable.m */; };
 		37F843B718FCE9B7003B20CC /* JSONDeeplyMutable.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F843B618FCE9B6003B20CC /* JSONDeeplyMutable.m */; };
 		382F9FC61E073C7A0060E3FA /* JSONTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 382F9FC41E073C7A0060E3FA /* JSONTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		382F9FCC1E073F5D0060E3FA /* JSONPatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BDF4EF18FB15C300BF9705 /* JSONPatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		382F9FCD1E073F5D0060E3FA /* JSONPatchInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BDF4FC18FB74C500BF9705 /* JSONPatchInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		382F9FCE1E073F5D0060E3FA /* JSONPatchDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BDF4F518FB18EE00BF9705 /* JSONPatchDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		382F9FCF1E073F5D0060E3FA /* JSONPatchArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BDF4F818FB29AA00BF9705 /* JSONPatchArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		382F9FD01E073F5D0060E3FA /* JSONPointer.h in Headers */ = {isa = PBXBuildFile; fileRef = 37A5004B18FB9FB200A15B0F /* JSONPointer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		382F9FD11E073F5D0060E3FA /* NSDictionary+JSONPointer.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BDF4E918FAF5FD00BF9705 /* NSDictionary+JSONPointer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		382F9FD21E073F5D0060E3FA /* NSArray+JSONPointer.h in Headers */ = {isa = PBXBuildFile; fileRef = 37A5004818FB9E7900A15B0F /* NSArray+JSONPointer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		382F9FD31E073F5D0060E3FA /* JSONDeeplyMutable.h in Headers */ = {isa = PBXBuildFile; fileRef = 37F843B518FCE94A003B20CC /* JSONDeeplyMutable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		382F9FD41E073F5D0060E3FA /* NSArray+JSONDeepMutable.h in Headers */ = {isa = PBXBuildFile; fileRef = 37F843AF18FCE674003B20CC /* NSArray+JSONDeepMutable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		382F9FD51E073F5D0060E3FA /* NSDictionary+JSONDeepMutable.h in Headers */ = {isa = PBXBuildFile; fileRef = 37F843B218FCE68C003B20CC /* NSDictionary+JSONDeepMutable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -213,6 +223,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				382F9FC61E073C7A0060E3FA /* JSONTools.h in Headers */,
+				382F9FCC1E073F5D0060E3FA /* JSONPatch.h in Headers */,
+				382F9FCD1E073F5D0060E3FA /* JSONPatchInfo.h in Headers */,
+				382F9FCE1E073F5D0060E3FA /* JSONPatchDictionary.h in Headers */,
+				382F9FCF1E073F5D0060E3FA /* JSONPatchArray.h in Headers */,
+				382F9FD01E073F5D0060E3FA /* JSONPointer.h in Headers */,
+				382F9FD11E073F5D0060E3FA /* NSDictionary+JSONPointer.h in Headers */,
+				382F9FD21E073F5D0060E3FA /* NSArray+JSONPointer.h in Headers */,
+				382F9FD31E073F5D0060E3FA /* JSONDeeplyMutable.h in Headers */,
+				382F9FD41E073F5D0060E3FA /* NSArray+JSONDeepMutable.h in Headers */,
+				382F9FD51E073F5D0060E3FA /* NSDictionary+JSONDeepMutable.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,6 +571,7 @@
 				382F9FC81E073C7A0060E3FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
