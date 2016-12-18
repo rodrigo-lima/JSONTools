@@ -64,7 +64,7 @@
 	if ([pointer hasPrefix:@"#"])
     {
 		pointer = [pointer substringFromIndex:1];
-		pointer = [pointer stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+		pointer = [pointer stringByRemovingPercentEncoding];
 	}
     return pointer;
 }

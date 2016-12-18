@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "37BDF4CC18FAF1DD00BF9705"
-               BuildableName = "JSONToolsTests.xctest"
-               BlueprintName = "JSONToolsTests"
+               BlueprintIdentifier = "38DD79701E074533002169ED"
+               BuildableName = "JSONTools.framework"
+               BlueprintName = "JSONTools"
                ReferencedContainer = "container:JSONToolsTests.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,16 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "37BDF4CC18FAF1DD00BF9705"
-               BuildableName = "JSONToolsTests.xctest"
-               BlueprintName = "JSONToolsTests"
-               ReferencedContainer = "container:JSONToolsTests.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <AdditionalOptions>
       </AdditionalOptions>
@@ -55,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "37BDF4CC18FAF1DD00BF9705"
-            BuildableName = "JSONToolsTests.xctest"
-            BlueprintName = "JSONToolsTests"
+            BlueprintIdentifier = "38DD79701E074533002169ED"
+            BuildableName = "JSONTools.framework"
+            BlueprintName = "JSONTools"
             ReferencedContainer = "container:JSONToolsTests.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -70,6 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "38DD79701E074533002169ED"
+            BuildableName = "JSONTools.framework"
+            BlueprintName = "JSONTools"
+            ReferencedContainer = "container:JSONToolsTests.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
